@@ -362,3 +362,50 @@ footer.footer-end {
     gap: 0.8rem;
   }
 }
+
+/* Navbar Mobile */
+.nav-toggle {
+  display: none;
+  background: none;
+  font-size: 1.8rem;
+  color: #60a5fa;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0b1120;
+    position: absolute;
+    top: 70px;
+    right: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    z-index: 1000;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  .nav-menu li {
+    padding: 0.5rem 0;
+  }
+}
+
