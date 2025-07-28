@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <nav aria-label="Primary navigation">
+        <div class="logo" tabindex="0">MyPortofolio</div>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- My Section -->
+  <section class="my">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="/asset/muhamadfauzan.jpg" alt="Foto Muhamad Fauzan Pratama" />
+      </div>
+      <div class="hero-text">
+        <h1>👋 Halo, Saya</h1>
+        <h2 class="nama-colorful">Muhamad Fauzan Pratama</h2>
+        <p>Siswa SMK Plus Pelita Nusantara • Web Developer Pemula</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-me" aria-label="About me section">
+  <h2>👋 Tentang Saya</h2>
+
+  <p>
+    <strong>Muhamad Fauzan Pratama</strong> adalah calon programmer muda dari SMK Plus Pelita Nusantara. 
+    <span id="dots">...</span>
+    <span id="more-text" class="hidden">
+      <br><br>
+      Saya adalah siswa aktif di <strong>SMK Plus Pelita Nusantara</strong>, dengan fokus minat pada bidang <strong>rekayasa perangkat lunak</strong>, khususnya pengembangan <strong>web dan aplikasi</strong>.<br><br>
+      Sejak awal mengenal dunia pemrograman, saya telah membekali diri dengan dasar-dasar penting seperti <strong>HTML, CSS, JavaScript</strong>, dan <strong>PHP</strong>, serta mulai mengembangkan proyek-proyek sederhana yang membantu saya memahami alur kerja dunia nyata. Beberapa proyek yang pernah saya kerjakan antara lain adalah <strong>aplikasi kalkulator online</strong>, <strong>website portofolio pribadi</strong>, dan <strong>kartu profil interaktif</strong> yang saya bangun menggunakan teknologi front-end.<br><br>
+      Saya dikenal sebagai pribadi yang <strong>kritis dalam memecahkan masalah</strong>, senang belajar hal baru, dan mampu bekerja secara mandiri maupun dalam tim. Kemampuan <strong>problem solving</strong>, berpikir terstruktur, serta rasa ingin tahu yang besar membuat saya terus tertantang untuk mengembangkan diri lebih dalam, tidak hanya di sisi tampilan (frontend), tetapi juga logika program (backend).<br><br>
+      Tujuan saya ke depan adalah menjadi seorang <strong>Full-Stack Web Developer</strong> yang mampu membangun aplikasi yang efisien, menarik secara visual, dan fungsional. Saya juga mulai tertarik dengan pengembangan <strong>mobile apps</strong> dan teknologi modern seperti <strong>framework JavaScript</strong> serta <strong>pengelolaan database</strong>.
+    </span>
+  </p>
+
+  <button id="toggleBtn" aria-label="Lihat Selengkapnya">Lihat Selengkapnya</button>
+</section>
+
+
+    <!-- Skills with Devicon -->
+    <section id="skills" class="skills-grid-section">
+      <h2>MySkills</h2>
+      <p class="skills-subtext">Beberapa teknologi dan platform yang saya kuasai dalam pengembangan web & desain.</p>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-php-plain colored"></i>
+          <p>PHP</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-laravel-plain colored"></i>
+          <p>Laravel</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-python-plain colored"></i>
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-tailwindcss-plain colored"></i>
+          <p>TailwindCss</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-github-original colored"></i>
+          <p>GitHub</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-figma-plain colored"></i>
+          <p>Figma</p>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-unity-plain colored"></i>
+          <p>Unity</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects" aria-label="Projects section">
+      <h2>🚀 Projects</h2>
+      <div class="Project-list">
+        <article class="Project-item" tabindex="0">
+          <img src="poto.png" alt="Portofolio Website" />
+          <h3>🎯 Portofolio Website</h3>
+          <p>
+            Website pribadi yang menampilkan profil, keterampilan, dan proyek. Dibangun menggunakan HTML, CSS, dan JavaScript.
+          </p>
+          <a href="index.html" class="Project-link" target="_blank" rel="noopener">🔗 Lihat Project</a>
+        </article>
+
+        <article class="Project-item" tabindex="0">
+          <img src="card.png" alt="Kartu Profil Developer" />
+          <h3>🃏 Kartu Profil Developer (Profile Card)</h3>
+          <p>
+            Membuat kartu profil interaktif untuk menampilkan informasi pribadi dan sosial media, dengan fitur animasi flip (berputar).
+          </p>
+          <a href="https://kartu-profil-developer-profile-card.vercel.app/" class="Project-link" target="_blank" rel="noopener">🔗 Lihat Project</a>
+        </article>
+
+        <article class="Project-item" tabindex="0">
+          <img src="kalkulator.png" alt="Kalkulator Online" />
+          <h3>🧮 Kalkulator Online</h3>
+          <p>
+            Kalkulator Online adalah proyek pemula yang cepat, keren, dan langsung kelihatan hasilnya.
+          </p>
+          <a href="index.html" class="Project-link" target="_blank" rel="noopener">🔗 Lihat Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" aria-label="Contact section">
+      <h2>📬 Contact Me</h2>
+      <form id="contact-me" action="https://formspree.io/f/xanozqaq" method="POST">
+        <label for="name">Nama lengkap</label>
+        <input type="text" name="name" id="name" placeholder="Nama Anda" aria-label="Nama Anda" required />
+        <div class="error" id="name-error"></div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email Anda..." aria-label="Email Anda" required />
+        <div class="error" id="email-error"></div>
+
+        <label for="message">Pesan</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda..." aria-label="Pesan Anda" required></textarea>
+        <div class="error" id="message-error"></div>
+
+        <button type="submit" aria-label="Kirim Pesan">✉️ Kirim Pesan</button>
+        <p class="success-msg" id="success-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+<!-- Footer Section -->
+<div class="footer-grid">
+  <div>
+    <h3>Fauzan</h3>
+    <p><strong>Hubungi kami</strong></p>
+    <p>fauzan@example.com</p>
+    <p>+62 81234567890</p>
+    <p>Depok, Jawa Barat</p>
+  </div>
+
+  <div>
+    <h3>Kategori Tulisan</h3>
+    <ul>
+      <li>Web Development</li>
+      <li>Teknologi</li>
+      <li>UI/UX & Tools</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Tautan</h3>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#Projects">Project</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Footer End -->
+<footer class="footer-end">
+  &copy; 2025 Muhamad Fauzan Pratama. All rights reserved.
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
